@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+
+
+    {% for i in order %}
+    <tr>
+        商品名：<td width="100">{{i.1}}</td>
+        店名：<td width="100">{{i.2}}</td>
+        地区：<td width="100">{{i.3}}</td>
+        价格：<td width="100">{{i.4}}</td> </br>
+    </tr>
+    {% endfor %}
+
+
+
+</body>
+
+</html>
